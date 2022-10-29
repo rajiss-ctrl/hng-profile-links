@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 .App{
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,6 +56,15 @@ main ul li{
     line-height: 28px;
     color: #101828;
 }
+main ul li button{
+  border:none;
+  outline:none;
+  background: none;
+}
+main ul li button a{
+  text-decoration: none;
+  color: #101828;
+}
 main .social-icons{
     width: 100%;
     height: 76px;
@@ -80,7 +90,6 @@ footer .container{
   justify-content: space-between;
 }
 footer .container p{
-  width: 832.28px;
   height: 24px;
 
   /* Text md/Normal */
@@ -105,6 +114,38 @@ footer .container .zuri{
 footer .container .i4g{
   Width: 132.13px;
   height: 32px;
+}
+
+@media screen and (max-width:600px){
+main {
+    padding: 64px 20px 64px 20px;
+  }
+    main ul li {
+      height: 68px;
+    }
+    footer{
+      padding:0 0 0 20px;
+      margin-left: 0;
+    }
+        footer .container {
+          display: block;
+          padding: 0;
+        }
+        footer .container p{
+          width: 213px; 
+          height: 20px;
+          margin-bottom: 16px;
+        }
+        footer .container .zuri{
+        width: 138.77px; 
+        height: 18.55px;
+        margin-bottom: 16px;
+        }
+        footer .container .i4g{
+        width: 99.1px; 
+        height: 24px;
+        margin-bottom: 16px;
+        }
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
