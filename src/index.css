@@ -1,12 +1,111 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header {
+  background: #ffffff;
+text-align: center;
+height: 176px;
+padding:64px 24px 24px 24px;
+}
+header img {
+  width:88px;
+  height: 88%;
+  border-radius:50%;
+}
+header h1 {
+  Line-height: 30px;
+  font-Weight: 700;
+  font-size:20px ;
+  font-family: 'Inter';
+  font-style: normal;
+  color: #101828;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 64px 144px 64px 144px;
+  width: 100%;
+}
+main ul {
+width: 100%;
+}
+main ul li{
+  background: #EAECF0;
+  width: 100%;
+  height:76px;
+  margin-top: 24px;
+  list-style: none;
+  display: grid;
+  place-content: center;
+  font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+}
+main .social-icons{
+    width: 100%;
+    height: 76px;
+    display: grid;
+    place-content: center;
+}
+main .social-icons .wrap{
+  display: flex;
+  gap: 24.55px;
+}
+
+main .social-icons .wrap img{
+  width: 24px;
+  height: 23.45px;
+}
+footer{
+  width: 100%;
+  padding:48.28px 113.36px;
+}
+footer .container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container p{
+  width: 832.28px;
+  height: 24px;
+
+  /* Text md/Normal */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Gray/500 */
+
+  color: #667085;
+}
+footer .container .zuri{
+  Width: 185.03px;
+  height: 24.74px;
+}
+footer .container .i4g{
+  Width: 132.13px;
+  height: 32px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
