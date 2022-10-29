@@ -2,6 +2,7 @@ import React from 'react'
 import Slack from '../images/slack.png';
 import github from '../images/Icon.png';
 
+
 const Main = () => {
   return (
     <main>
