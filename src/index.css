@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .App{
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,6 +26,7 @@ header img {
 header .rajissImg{
   width: 100%;
   position: relative;
+  overflow: hidden;
 }
 header .share{
   position: absolute;
@@ -139,7 +140,7 @@ footer .container .i4g{
       right: 0;
     }
   main {
-      padding: 64px 40px 64px 40px;
+      padding: 64px 30px 64px 30px;
     }
       footer {
           padding: 0 0 0 40px;
@@ -183,24 +184,32 @@ main {
       padding:0 0 0 20px;
       margin-left: 0;
     }
-        /* footer .container {
-          display: block;
-          padding: 0;
-        }
-        footer .container p{
-          width: 213px; 
-          height: 20px;
-          margin-bottom: 16px;
-        }
-        footer .container .zuri{
-        width: 138.77px; 
-        height: 18.55px;
-        margin-bottom: 16px;
-        }
-        footer .container .i4g{
-        width: 99.1px; 
-        height: 24px;
-        margin-bottom: 16px;
-        } */
+
+}
+@media screen and (max-width:300px){
+    main ul li {
+      height: 50px;
+    }
+    header .share{
+      width: 30px;
+      height: 30px;
+    }
+    header h1{
+      font-size: 14px;
+    }
+  footer .container p {
+      font-size: 14px;
+      width: 188px;
+  }
+
+
+  footer .container .zuri {
+    height: 14.55px;
+    margin-bottom: 16px;
+  }
+
+  footer .container .i4g {
+    height: 20px;
+  }
 }
 
