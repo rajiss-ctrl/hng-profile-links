@@ -1,5 +1,5 @@
 import React from 'react'
-import Zuri from '../images/Vector.png';
+import Zuri from '../images/Zuri.Internship_Logo.png';
 import I4G from '../images/I4G.png';
 
 const Footer = () => {
