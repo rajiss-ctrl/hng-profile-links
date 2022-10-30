@@ -35,6 +35,9 @@ header .share{
   width: 40px;
   height: 40px;
 }
+header .dots{
+  display: none;
+}
 header h1 {
   Line-height: 30px;
   font-Weight: 700;
@@ -146,33 +149,41 @@ footer .container .i4g{
           padding: 0 0 0 40px;
           margin-left: 0;
         }
-                footer .container {
-                  display: block;
-                  padding: 0;
-                }
-        
-                footer .container p {
-                  width: 213px;
-                  height: 20px;
-                  margin-bottom: 16px;
-                }
-        
-                footer .container .zuri {
-                  width: 138.77px;
-                  height: 18.55px;
-                  margin-bottom: 16px;
-                }
-        
-                footer .container .i4g {
-                  width: 99.1px;
-                  height: 24px;
-                  margin-bottom: 16px;
-                }
+        footer .container {
+          display: block;
+          padding: 0;
+        }
+
+        footer .container p {
+          width: 213px;
+          height: 20px;
+          margin-bottom: 16px;
+        }
+
+        footer .container .zuri {
+          width: 138.77px;
+          height: 18.55px;
+          margin-bottom: 16px;
+        }
+
+        footer .container .i4g {
+          width: 99.1px;
+          height: 24px;
+          margin-bottom: 16px;
+        }
       }
 
 @media screen and (max-width:600px){
     header .share {
-        right: 0;
+        display: none;
+      }
+      header .dots {
+        display: block;
+        position: absolute;
+        top: -3px;
+        right:0;
+        width: 40px;
+        height: 40px;
       }
 main {
     padding: 64px 20px 64px 20px;
