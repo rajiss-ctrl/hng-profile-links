@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +14,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: "Inter";
 }
 header {
   width: 100%;
@@ -24,7 +27,6 @@ header img {
   width:88px;
   height: 88%;
   border-radius:50%;
-  border: 1px dashed #D0D5DD;
 }
 header .rajissImg{
   width: 100%;
@@ -75,14 +77,22 @@ main ul li{
     font-size: 18px;
     line-height: 28px;
     color: #101828;
+    border-radius: 8px;
 }
 main ul li button{
+  width: 100%;
   border:none;
   outline:none;
   background: none;
 }
 main ul li button a{
+  width: 100%;
   text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
   color: #101828;
 }
 main .social-icons{
@@ -192,10 +202,16 @@ main {
     }
 
 }
+@media screen and (max-width:600px){
+    main ul li button a {
+        font-size: 14px;
+      }
+}
 @media screen and (max-width:300px){
     main ul li {
       height: 50px;
     }
+
     header .share{
       width: 30px;
       height: 30px;
@@ -204,11 +220,8 @@ main {
       font-size: 14px;
     }
   footer .container p {
-      font-size: 14px;
-    
+      font-size: 14px; 
   }
-
-
   footer .container .zuri {
     height: 14.55px;
     margin-bottom: 16px;
