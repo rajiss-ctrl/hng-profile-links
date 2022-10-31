@@ -9,7 +9,7 @@ const ProfileImage = () => {
         <div className="rajissImg">
           <img id='profile_img' src={RajissCtrl} alt="RajissCtrl" />
           <h1 id='twitter'>Raji S. Sanjo</h1>
-          <div id="slack"></div>
+          <div id="slack">rajiss-ctrl</div>
           <img className='share' src={Share} alt="share" />
           <img className='dots' src={Dots} alt="dots horizontal" />
         </div>
