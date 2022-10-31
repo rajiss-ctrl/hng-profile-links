@@ -8,10 +8,10 @@ const Main = () => {
     <main>
       <ul>
         <li><button><a id='twitter' href="https://twitter.com/RajiSanjo" target="_blank">Twitter Link</a></button></li>
-        <li><button><a id='btn__zuri' href="https://training.zuri.team" target="_blank">Zuri Team</a></button></li>
+        <li><button><a id='btn__zuri' title='learning tech made easy on the zuri training, try it ' href="https://training.zuri.team" target="_blank">Zuri Team</a></button></li>
         <li><button><a id='books' title='site to get best books about design and coding' target="_blank" href="https://books.zuri.team">Zuri Books</a></button></li>
         <li><button><a id='book__python' title='best siite to get books that teaches like you are a 5 years kid' target="_blank" href="https://training.zuri.team/python-for-beginners?ref_id=RajiSarafadeenSanjo">Python Books</a></button></li>
-        <li><button><a id='pitch' href="https://background.zuri.team" target="_blank">Background Check for Coders</a></button></li>
+        <li><button><a id='pitch' title='background check for coders' href="https://background.zuri.team" target="_blank">Background Check for Coders</a></button></li>
         <li><button><a id='book__design' title='quality free design books from zuri'  target="_blank"href="https://training.zuri.team/design-rules">Design Books</a></button></li>
       </ul>
       <div className="social-icons">
