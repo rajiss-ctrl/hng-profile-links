@@ -3,6 +3,7 @@
     padding: 0 360px;
     margin-top: 150px;
     margin-bottom: 188px;
+    overflow: hidden;
 }
 .contact h2{
     margin-top: 20px;
@@ -83,7 +84,6 @@ textarea{
     height: 132px;
     margin-top: 16px;
     padding: 10px 0 0 14px;
-    height: 108px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -173,6 +173,9 @@ textarea{
        margin-top: 6px;
        margin-bottom: 0; 
     }
+   .mobile_fiestname{
+        margin-top: 0;
+    }
     label input[type=text]{
        margin-top: 6px;
         margin-bottom: 0;
@@ -187,7 +190,9 @@ textarea{
         flex-direction: column;
         gap: 0;
     }
-
+        form{
+            height: auto;
+        }
     .name__split label {
         width: 100%;
         margin-top: 24px;

@@ -24,7 +24,7 @@ const Contact = () => {
       <p>Hi there, contact me to ask me about anything you have in mind.</p>
         <form onSubmit={handleSubmit}>
           <div className="name__split">
-            <label>
+            <label className='mobile_fiestname'>
               First name
             <input id="first_name" type="text" placeholder="Enter your first name" />
             </label>
