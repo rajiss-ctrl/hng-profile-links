@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom'
 import Slack from '../images/slack.png';
 import github from '../images/Icon.png';
 import ProfileImage from './ProfileImage';
-import Footer from './Footer';
 
 
 const Main = () => {
