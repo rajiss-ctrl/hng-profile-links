@@ -38,7 +38,7 @@ form{
 label {
     display: block;
     width: 100%;
-    margin-top: 48px;
+    margin-top: 24px;
 }
 
 label input[type=email] {
