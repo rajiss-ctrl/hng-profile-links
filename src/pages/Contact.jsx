@@ -69,7 +69,7 @@ const validate =(inputs)=>{
           <div className="name__split">
             <label className='mobile_fiestname'>
               First name
-            <input id="first_name" type="text" name='firstname' value={values.firstname} onChange={handleChange} placeholder="Enter your first name" />
+            <input id="first_name" className={`${err.firstname} && "test"`} type="text" name='firstname' value={values.firstname} onChange={handleChange} placeholder="Enter your first name" />
             <p className='err'>{err.firstname}</p>
             </label>
             <label>

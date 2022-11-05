@@ -1,8 +1,8 @@
 .contact{
     width: 100%;
     padding: 0 360px;
-    margin-top: 150px;
-    margin-bottom: 188px;
+    margin-top: 50px;
+    margin-bottom: 88px;
     overflow: hidden;
 }
 .contact h2{
@@ -37,6 +37,7 @@ form{
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    margin-top: 24px;
 }
 label {
     display: block;
@@ -109,7 +110,7 @@ textarea{
     width: 50%;
 }
 .checkbox{
-    margin-top: 36px;
+    margin-top: 20px;
     width: 100%;
     display:flex; 
 }
