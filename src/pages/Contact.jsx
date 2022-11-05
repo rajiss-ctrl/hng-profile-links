@@ -70,29 +70,29 @@ const validate =(inputs)=>{
             <label className='mobile_fiestname'>
               First name
             <input id="first_name" className={`${err.firstname} && "test"`} type="text" name='firstname' value={values.firstname} onChange={handleChange} placeholder="Enter your first name" />
-            <p className='err'>{err.firstname}</p>
+            <p className={!isSubmit ? 'no_err' : "err"}>{err.firstname}</p>
             </label>
             <label>
               Last name
             <input id="last_name" type="text" name='lastname' value={values.lastname} onChange={handleChange} placeholder="Enter your lastst name" />
-            <p className='err'>{err.lastname}</p>
+            <p className={!isSubmit ? 'no_err' : "err"}>{err.lastname}</p>
             </label>
           </div>
           <label>
             Email
             <input id="emai" type="email" name='email' value={values.email} onChange={handleChange} placeholder="yourname@email.com" />
-            <p className='err'>{err.email}</p>
+            <p className={!isSubmit ? 'no_err' : "err"}>{err.email}</p>
           </label>
             <label>
               Message
             <textarea placeholder="Send me a message and I'll reply you as soon as possible..." id="message" name="message" value={values.message} onChange={handleChange}></textarea>
-            <p className='err'>{err.message}</p>
+            <p className={!isSubmit ? 'no_err' : "err"}>{err.message}</p>
             </label>
           <div className="checkbox">
           <span className='check_wrap'><input type="checkbox" name='checked' value={values.checked} onChange={handleChange}/></span>
             <span>You agree to providing your data to {name} who may contact you.</span>
           </div>
-          <p className='err'>{err.checked}</p>
+          <p className={!isSubmit ? 'no_err' : "err"}>{err.checked}</p>
           <button id="btn__submit" >Send message</button>
         </form>
     </div>

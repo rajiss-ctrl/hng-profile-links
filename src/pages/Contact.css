@@ -27,9 +27,14 @@
     font-style: normal;
     line-height: 30px;
 }
+p.no_err{
+    display: none;
+}
 p.err{
+    display: block;
     font-size: 14px;
     color: rgb(231, 81, 81);
+    margin-bottom:0;
 }
 form{
     display: flex;
@@ -168,6 +173,7 @@ textarea{
     }
  label {
      margin-top: 24px;
+    margin-bottom: 0;
  }
     label input[type=email]{
        margin-top: 6px;
@@ -189,6 +195,9 @@ textarea{
         display: flex;
         flex-direction: column;
         gap: 0;
+    }
+    p.err{
+        margin-bottom: 0;
     }
     form{
         height: auto;
