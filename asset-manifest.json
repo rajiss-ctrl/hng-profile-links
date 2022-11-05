@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/hng-profile-links/static/css/main.e1a6e43b.css",
+    "main.css": "/hng-profile-links/static/css/main.07229c54.css",
     "main.js": "/hng-profile-links/static/js/main.785b60f4.js",
     "static/media/rajiss-ctrl.jpg": "/hng-profile-links/static/media/rajiss-ctrl.6e7a0dcc511e510f1463.jpg",
     "index.html": "/hng-profile-links/index.html",
-    "main.e1a6e43b.css.map": "/hng-profile-links/static/css/main.e1a6e43b.css.map",
+    "main.07229c54.css.map": "/hng-profile-links/static/css/main.07229c54.css.map",
     "main.785b60f4.js.map": "/hng-profile-links/static/js/main.785b60f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1a6e43b.css",
+    "static/css/main.07229c54.css",
     "static/js/main.785b60f4.js"
   ]
 }
