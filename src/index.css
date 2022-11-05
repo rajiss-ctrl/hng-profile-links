@@ -153,13 +153,13 @@ footer .container .i4g{
       padding: 64px 30px 64px 30px;
     }
       footer {
-          padding: 0 0 0 40px;
-          margin-left: 0;
+          padding: 0 40px  0 40px;
+          /* margin-left: 0; */
         }
-        footer .container {
+        /* footer .container {
           display: block;
           padding: 0;
-        }
+        } */
 
         footer .container p {
           height: 20px;
@@ -197,6 +197,10 @@ main {
     main ul li {
       height: 68px;
     }
+  footer .container {
+    display: block;
+    padding: 0;
+  } 
     footer{
       padding:0 0 0 20px;
       margin-left: 0;

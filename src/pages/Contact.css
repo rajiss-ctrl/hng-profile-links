@@ -1,6 +1,6 @@
 .contact{
     width: 100%;
-    padding: 0 360px;
+    padding: 0 310px;
     margin-top: 50px;
     margin-bottom: 88px;
     overflow: hidden;
@@ -35,6 +35,7 @@ p.err{
     font-size: 14px;
     color: rgb(231, 81, 81);
     margin-bottom:0;
+    padding: 0;
 }
 form{
     display: flex;
@@ -55,7 +56,7 @@ label input[type=email] {
     padding-top: 10px  ;
     padding-bottom: 10px ;
     padding-left: 14px ;
-    margin-top: 16px;
+    margin-top: 6px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -74,7 +75,7 @@ label input[type=text] {
     width: 100%;
     display: block;
     padding: 10px 14px;
-    margin-top: 16px;
+    margin-top: 6px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -91,7 +92,7 @@ label input[type=text] {
 textarea{
     width: 100%;
     height: 132px;
-    margin-top: 16px;
+    margin-top: 6px;
     padding: 10px 0 0 14px;
     font-family: 'Inter';
     font-style: normal;
@@ -155,7 +156,7 @@ textarea{
 
 @media screen and (max-width:1024px){
     .contact {
-    padding: 0 260px;
+    padding: 0 180px;
     }
 }
 @media screen and (max-width:912px){
@@ -167,6 +168,7 @@ textarea{
     .contact {
     padding: 0 16px;
     margin-top: 64px;
+    margin-bottom: 66px;
     }
     .contact p{
         margin-bottom: 48px;
