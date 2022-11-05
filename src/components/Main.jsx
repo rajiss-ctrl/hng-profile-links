@@ -18,7 +18,7 @@ const Main = () => {
         <li><button><a id='book__python' title='best siite to get books that teaches like you are a 5 years kid' target="_blank" href="https://training.zuri.team/python-for-beginners?ref_id=RajiSarafadeenSanjo">Python Books</a></button></li>
         <li><button><a id='pitch' title='background check for coders' href="https://background.zuri.team" target="_blank">Background Check for Coders</a></button></li>
         <li><button><a id='book__design' title='quality free design books from zuri'  target="_blank"href="https://training.zuri.team/design-rules">Design Books</a></button></li>
-        <li><button><Link id='contact' to='/contact'>Contact Me</Link></button></li>
+        <li><button><Link id='contact' to="/contact">Contact Me</Link></button></li>
       </ul>
       <div className="social-icons">
           <div className="wrap">
